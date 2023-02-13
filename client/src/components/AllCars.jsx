@@ -11,8 +11,7 @@ const AllCars = () => {
         .get ('/api/items/AllCars')
         .then((res)=>{
             setCars(res.data)
-          //   console.log("hhhh",res.data)
-          // console.log("data of cars",cars)
+     
         }).catch((err)=>console.log(err))
     
       }, [])

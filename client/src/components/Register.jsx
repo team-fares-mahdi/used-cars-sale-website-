@@ -65,6 +65,4 @@ const navigate=useNavigate()
 };
 
 export default Register;
-{
-  /* <Link to="/register">re</Link> */
-}
+
