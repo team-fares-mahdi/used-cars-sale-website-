@@ -43,6 +43,7 @@ const Login = () => {
     }
     console.log("login",data.userName)
  }
+ // controle de saisie
  const validator=()=>{
   let result=true
   if(!email){
