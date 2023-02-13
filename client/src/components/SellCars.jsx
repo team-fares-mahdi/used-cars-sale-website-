@@ -46,7 +46,7 @@ const SellCars = (props) => {
     }
     return ( 
     <div>
-     
+     {console.log("props",props)}
       <form className="carForm" onSubmit={sellCar}>
         <h1>Add your car's data</h1>
         <div>
